@@ -1,0 +1,53 @@
+.topbar {
+  flex: 1 1 100%;
+  color: #fafafa;
+}
+
+.toolbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sign-out{
+  font-size: 25px;
+}
+
+.sign-out:hover{
+  cursor: pointer;
+  font-size: 30px;
+}
+
+.home-topbar{
+  text-decoration: unset;
+  font-size: 25px;
+  font-weight: bolder;
+  color: #fafafa;
+  transition: 0.1s;
+}
+.home-topbar:hover{
+  font-size: 30px;
+}
+
+
+
+@media only screen and (max-width: 530px) {
+  .home-topbar{
+    font-size: 20px;
+  }
+
+  .home-topbar:hover{
+    font-size: 24px;
+  }
+}
+
+/* Mobile Landscape */
+@media only screen and (min-width: 531px) and (max-width: 768px) {
+  .home-topbar{
+    font-size: 20px;
+  }
+
+  .home-topbar:hover{
+    font-size: 24px;
+  }
+}

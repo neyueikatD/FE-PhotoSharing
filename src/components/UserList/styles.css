@@ -1,0 +1,105 @@
+.link-item{
+    text-decoration: unset;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #fafafa;
+    transition: 0.1s;
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    padding: 3px 3px 3px 10px;
+    border-radius: 5px;
+}
+
+.link-item:hover{
+    font-size: 24px;
+    background-color: #0202ba;
+}
+
+.list-item{
+    list-style: none;
+    padding: 5px;
+}
+
+.list{
+   padding: 0;
+}
+
+.side-bar{
+    background-color: #02024d;
+    color: #fafafa;
+    transition:linear 0.3s;
+}
+
+.side-bar h2{
+    text-align: center;
+    margin: 0;
+    flex: 9 1;
+}
+
+.list-header{
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.nav-bar{
+    max-height: 500px;
+}
+
+.bar{
+    margin-right: 10px;
+    font-size: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    flex: 1 1;
+}
+
+.side-bar.hide{
+    flex: none;
+}
+
+.bar:hover{
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.list-header-text.hide, .nav-bar.hide{
+    display: none;
+}
+
+@media only screen and (max-width: 530px) {
+    .link-item{
+        font-size: 16px;
+    }
+
+    .list-header-text{
+        font-size: 20px;
+    }
+
+    .link-item:hover{
+        font-size: 20px;
+    }
+}
+  
+  /* Mobile Landscape */
+  @media only screen and (min-width: 531px) and (max-width: 768px) {
+    .link-item{
+        font-size: 15px;
+    }
+
+    .list-header-text{
+        font-size: 18px;
+    }
+
+    .link-item:hover{
+        font-size: 17px;
+    }
+  }
+  
